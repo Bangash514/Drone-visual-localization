@@ -1,0 +1,4 @@
+numpy
+opencv-python
+# Only needed for --method superglue
+torch
