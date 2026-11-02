@@ -1,12 +1,26 @@
+# Python
 __pycache__/
 *.pyc
 .venv/
 .ipynb_checkpoints/
 
-# large inputs / local data
+# build folders (C++)
+build/
+cpp/build/
+
+# editors and system files
+.vscode/
+.idea/
+.DS_Store
+
+# private or large inputs (put your own images here)
 data/
 *.tif
 *.tiff
 
-# keep the small result images in results/, ignore bulky extras
+# files created by the commands in the README
+sim_work/
+demo/index.npz
+demo/index.idx
+results/real*/
 results/*.npy
