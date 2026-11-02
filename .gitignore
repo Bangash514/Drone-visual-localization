@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# large inputs / local data
+data/
+*.tif
+*.tiff
+
+# keep the small result images in results/, ignore bulky extras
+results/*.npy
