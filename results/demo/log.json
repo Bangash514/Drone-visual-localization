@@ -1,0 +1,60 @@
+{
+  "method": "orb-index",
+  "matcher": "flann",
+  "map_size": [
+    2048,
+    1152
+  ],
+  "drone_size": [
+    400,
+    250
+  ],
+  "index_keypoints": 2116,
+  "drone_keypoints": 751,
+  "drone_scale_applied": 1.0,
+  "matches": 106,
+  "inliers": 99,
+  "quad_convex": true,
+  "success": true,
+  "timing_ms": {
+    "index_build_ms": 95.0,
+    "index_load_ms": 5.0,
+    "drone_load_ms": 1.9,
+    "query_detect_ms": 4.2,
+    "query_match_ms": 5.0,
+    "homography_ms": 0.47,
+    "total_query_ms": 9.7
+  },
+  "total_query_under_100ms": true,
+  "center_px_map": [
+    1210.15,
+    640.13
+  ],
+  "footprint_px_map": [
+    [
+      975.5,
+      463.9
+    ],
+    [
+      1469.7,
+      508.9
+    ],
+    [
+      1445.6,
+      817.0
+    ],
+    [
+      945.8,
+      773.8
+    ]
+  ],
+  "timing_repeat": 5,
+  "settings": {
+    "features": 800,
+    "ratio": 0.75,
+    "ransac_thresh": 5.0,
+    "scales": [
+      1.0
+    ]
+  }
+}

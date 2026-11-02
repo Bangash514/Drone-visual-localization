@@ -1,0 +1,92 @@
+{
+  "map_size": [
+    7680,
+    4320
+  ],
+  "drone_size": [
+    800,
+    500
+  ],
+  "success_px": 5.0,
+  "cv2_python": "5.0.0",
+  "repeat": 3,
+  "cases": 24,
+  "summaries": [
+    {
+      "cases": 24,
+      "success_rate_pct": 100.0,
+      "flagged_success": 24,
+      "mean_error_px": 0.53,
+      "max_error_px": 1.23,
+      "median_detect_ms": 10.5,
+      "median_match_ms": 85.9,
+      "median_total_query_ms": 96.8,
+      "max_total_query_ms": 116.3,
+      "cases_under_100ms_pct": 58.3,
+      "matcher": "bf",
+      "features": 800,
+      "per_tile": 800,
+      "mode": "none",
+      "index_keypoints": 23938,
+      "index_build_ms": 1397.7,
+      "index_load_ms": 2.4
+    },
+    {
+      "cases": 24,
+      "success_rate_pct": 100.0,
+      "flagged_success": 24,
+      "mean_error_px": 0.54,
+      "max_error_px": 1.32,
+      "median_detect_ms": 13.4,
+      "median_match_ms": 178.0,
+      "median_total_query_ms": 190.2,
+      "max_total_query_ms": 262.8,
+      "cases_under_100ms_pct": 0.0,
+      "matcher": "bf",
+      "features": 1500,
+      "per_tile": 800,
+      "mode": "none",
+      "index_keypoints": 23938,
+      "index_build_ms": 1397.7,
+      "index_load_ms": 2.4
+    },
+    {
+      "cases": 24,
+      "success_rate_pct": 100.0,
+      "flagged_success": 24,
+      "mean_error_px": 0.53,
+      "max_error_px": 1.28,
+      "median_detect_ms": 9.8,
+      "median_match_ms": 38.5,
+      "median_total_query_ms": 49.5,
+      "max_total_query_ms": 64.0,
+      "cases_under_100ms_pct": 100.0,
+      "matcher": "flann",
+      "features": 800,
+      "per_tile": 800,
+      "mode": "none",
+      "index_keypoints": 23938,
+      "index_build_ms": 1397.7,
+      "index_load_ms": 13.7
+    },
+    {
+      "cases": 24,
+      "success_rate_pct": 100.0,
+      "flagged_success": 24,
+      "mean_error_px": 0.55,
+      "max_error_px": 1.28,
+      "median_detect_ms": 12.2,
+      "median_match_ms": 73.8,
+      "median_total_query_ms": 86.6,
+      "max_total_query_ms": 128.5,
+      "cases_under_100ms_pct": 75.0,
+      "matcher": "flann",
+      "features": 1500,
+      "per_tile": 800,
+      "mode": "none",
+      "index_keypoints": 23938,
+      "index_build_ms": 1397.7,
+      "index_load_ms": 13.7
+    }
+  ]
+}

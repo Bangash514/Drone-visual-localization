@@ -1,0 +1,73 @@
+{
+  "map_size": [
+    7680,
+    4320
+  ],
+  "drone_size": [
+    800,
+    500
+  ],
+  "success_px": 5.0,
+  "cv2_python": "5.0.0",
+  "repeat": 1,
+  "cases": 24,
+  "summaries": [
+    {
+      "cases": 24,
+      "success_rate_pct": 100.0,
+      "flagged_success": 24,
+      "mean_error_px": 0.55,
+      "max_error_px": 1.28,
+      "median_detect_ms": 11.4,
+      "median_match_ms": 82.9,
+      "median_total_query_ms": 94.9,
+      "max_total_query_ms": 168.9,
+      "cases_under_100ms_pct": 62.5,
+      "matcher": "flann",
+      "features": 1500,
+      "per_tile": 800,
+      "mode": "none",
+      "index_keypoints": 23938,
+      "index_build_ms": 1384.3,
+      "index_load_ms": 13.9
+    },
+    {
+      "cases": 24,
+      "success_rate_pct": 100.0,
+      "flagged_success": 24,
+      "mean_error_px": 0.4,
+      "max_error_px": 0.91,
+      "median_detect_ms": 16.7,
+      "median_match_ms": 96.7,
+      "median_total_query_ms": 117.8,
+      "max_total_query_ms": 169.6,
+      "cases_under_100ms_pct": 29.2,
+      "matcher": "flann",
+      "features": 1500,
+      "per_tile": 800,
+      "mode": "known",
+      "index_keypoints": 23938,
+      "index_build_ms": 1384.3,
+      "index_load_ms": 13.9
+    },
+    {
+      "cases": 24,
+      "success_rate_pct": 100.0,
+      "flagged_success": 24,
+      "mean_error_px": 0.39,
+      "max_error_px": 0.91,
+      "median_detect_ms": 64.8,
+      "median_match_ms": 422.0,
+      "median_total_query_ms": 490.4,
+      "max_total_query_ms": 635.6,
+      "cases_under_100ms_pct": 0.0,
+      "matcher": "flann",
+      "features": 1500,
+      "per_tile": 800,
+      "mode": "search",
+      "index_keypoints": 23938,
+      "index_build_ms": 1384.3,
+      "index_load_ms": 13.9
+    }
+  ]
+}
